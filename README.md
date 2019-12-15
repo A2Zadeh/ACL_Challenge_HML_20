@@ -3,6 +3,7 @@
 To start with the challenge on CMU-MOSEI dataset, you have two options:
 
 A. Use CMU Multimodal SDK (recommended)
+
 B. Download the raw data and process it
 
 ## Option A: Using the CMU Multimodal SDK
