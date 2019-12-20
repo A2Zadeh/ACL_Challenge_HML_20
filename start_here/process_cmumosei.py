@@ -43,11 +43,14 @@ def process_data(folders=["cmumosei_highlevel","cmumosei_labels"]):
 	#cmumosei_challenge_acl20["highlevel"]=mmdatasdk.mmdataset("final_aligned")
 
 	#getting the final tensors for machine learning - pass the folds to this function to get data based on tr,va,te folds.
-	tensors=cmumosei_challenge_acl20["highlevel"].get_tensors(seq_len=50,non_sequences=["Emotion Labels"],direction=False)
-	
-	#output the shape of the tensors
-	for csd in list(cmumosei_challenge_acl20["highlevel"].keys()):
-		print (csd,tensors[csd].shape)
+	tensors=cmumosei_challenge_acl20["highlevel"].get_tensors(seq_len=50,non_sequences=["Emotion Labels"],direction=False,folds=[mmdatasdk.cmu_mosei.standard_folds.standard_train_fold,mmdatasdk.cmu_mosei.standard_folds.standard_valid_fold,mmdatasdk.cmu_mosei.standard_folds.standard_test_fold])
+
+	fold_names=["train","valid","test"]
+
+	for i in range(3):	
+		#output the shape of the tensors
+		for csd in list(cmumosei_challenge_acl20["highlevel"].keys()):
+			print ("Shape of the %s computational sequence for %s fold is %s"%(csd,fold_names[i],tensors[i][csd].shape))
 
 if __name__=="__main__":
 	cmumosei_challenge_20=process_data()
