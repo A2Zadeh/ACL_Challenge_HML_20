@@ -1,6 +1,6 @@
 import mmsdk
 from mmsdk import mmdatasdk
-from mmsdk.mmdataset import log
+from mmsdk.mmdatasdk import log
 import ChallengeHML20   
 import numpy
 
@@ -10,6 +10,7 @@ def download_data(keys):
 	cmumosei_challenge_acl20={}
 	for key in keys:
 		cmumosei_challenge_acl20[key]=mmdatasdk.mmdataset(ChallengeHML20.challenge20_data[key],'cmumosei_%s/'%key)
+		cmumosei_challenge_acl20
 	return cmumosei_challenge_acl20
 
 if __name__=="__main__":
