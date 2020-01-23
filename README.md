@@ -58,7 +58,7 @@ This option is not recommended since multimodal data processing can be cumbersom
 
 Private test data will be release on Feb 15th.  
 
-# MELD
+# Begin with MELD
 
 MELD is not yet a part of CMU Multimodal SDK. Therefore, it is up to the participants to process the dataset (e.g. word alignment). You can find the starting page of MELD here: https://github.com/SenticNet/MELD
 
