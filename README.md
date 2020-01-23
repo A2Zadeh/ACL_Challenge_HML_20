@@ -35,16 +35,28 @@ Subsequently run the start\_here/test\_sdk.py if you get the following message:
 Welcome to ACL20 Challenge - HML CMU-MOSEI Subchallenge. SDK Works! 
 ```
 
-Now, off to getting the data. We have provided a sample code that will do the job for you, simply run SDK\_start/dl\_cmumosei.py
+Now, off to getting the data. We have provided a sample code that will do the job for you, simply run 
 
-This will download all the CMU-MOSEI train, validation and public test data for you. The file SDK\_start/folds\_cmumosei.py includes all the ids for the different folds used in the challenge. Note the private test will be released on Feb 15th.  
+```bash
+CHALHML\_PATH\start_here/dl\_cmumosei.py
+```
+
+This will download all the CMU-MOSEI train, validation and public test data for you. **note: public test data is not the same as private test data**. The process will also create "cmumosei_highlevel" and "cmumosei_labels" folders. Inside, there will be computational sequence data (csd) files containing the features and labels of CMU-MOSEI respectively. 
+
+After download is finished, simply run the process_cmumosei to start the word alignment of the CMU-MOSEI. 
+
+```bash
+CHALHML\_PATH\start_here/process\_cmumosei.py
+```
+
+The above will first do word alignment. Once the word alignment is done, it will create "word_aligned_highlevel" folder with word aligned csd files. Subsequently, the code aligns everything to labels and creates "final_aligned" folder. We also provide these folders for download here, identical to what you would get if you ran locally: http://immortal.multicomp.cs.cmu.edu/ACL20Challenge/
+
 
 ## Option B: Download Raw Data
 
-This option is not recommended since multimodal data processing can be cumbersome. However, if you decided to take this path, the raw data is available here: http://immortal.multicomp.cs.cmu.edu/raw\_datasets/CMU\_MOSEI.zip
+This option is not recommended since multimodal data processing can be cumbersome, specially for CMU-MOSEI. However, if you decided to take this path, the raw data is available here: http://immortal.multicomp.cs.cmu.edu/raw\_datasets/CMU\_MOSEI.zip
 
 Private test data will be release on Feb 15th.  
-
 
 # MELD
 
