@@ -17,10 +17,10 @@ B. Download the raw data and process it
 
 ## Option A: Using the CMU Multimodal SDK
 
-First clone the CMU Multimodal SDK from https://github.com/A2Zadeh/CMU-MultimodalSDK. Install it using the short and easy installation steps in the SDK. We refer to the path to SDK as SDK\_PATH. Subsequently, clone this github repository. We will refer to the path to this repository as CHALHML\_PATH. Add both paths to your PYTHONPATH environment variable using:
+First clone the CMU Multimodal SDK from https://github.com/A2Zadeh/CMU-MultimodalSDK. Install it using the short and easy installation steps in the MMSDK. We refer to the path to MMSDK as MMSDK\_PATH. Subsequently, clone this github repository. We will refer to the path to this repository as CHALHML\_PATH. Add both paths to your PYTHONPATH environment variable using:
 
 ```bash
-export PYTHONPATH="SDK\_PATH:CHALHML\_PATH\ChallengeSDK"
+export PYTHONPATH="MMSDK_PATH:CHALHML_PATH/ChallengeSDK"
 ```
 
 Example if you have copied both to  /usr/some\_dope\_username/acl20challenge/ (do not use this directly, change the paths to yours): 
@@ -38,7 +38,7 @@ Welcome to ACL20 Challenge - HML CMU-MOSEI Subchallenge. SDK Works!
 Now, off to getting the data. We have provided a sample code that will do the job for you, simply run 
 
 ```bash
-CHALHML\_PATH\start_here/dl\_cmumosei.py
+CHALHML_PATH/start_here/download_cmumosei.py
 ```
 
 This will download all the CMU-MOSEI train, validation and public test data for you. **note: public test data is not the same as private test data**. The process will also create "cmumosei_highlevel" and "cmumosei_labels" folders. Inside, there will be computational sequence data (csd) files containing the features and labels of CMU-MOSEI respectively. 
@@ -46,7 +46,7 @@ This will download all the CMU-MOSEI train, validation and public test data for 
 After download is finished, simply run the process_cmumosei to start the word alignment of the CMU-MOSEI. 
 
 ```bash
-CHALHML\_PATH\start_here/process\_cmumosei.py
+CHALHML_PATH/start_here/process_cmumosei.py
 ```
 
 The above will first do word alignment. Once the word alignment is done, it will create "word_aligned_highlevel" folder with word aligned csd files. Subsequently, the code aligns everything to labels and creates "final_aligned" folder. We also provide these folders for download here, identical to what you would get if you ran locally: http://immortal.multicomp.cs.cmu.edu/ACL20Challenge/
