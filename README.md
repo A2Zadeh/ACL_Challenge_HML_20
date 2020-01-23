@@ -29,7 +29,11 @@ Example if you have copied both to  /usr/some\_dope\_username/acl20challenge/ (d
 export PYTHONPATH="/usr/some_dope_username/acl20challenge/CMU-MultimodalSDK:/usr/some_dope_username/acl20challenge/git_challenge/ChallengeSDK/"
 ```
 
-Subsequently run the start\_here/test\_sdk.py if you get the following message: "Welcome to ACL20 Challenge - HML CMU-MOSEI Subchallenge. SDK Works! "
+Subsequently run the start\_here/test\_sdk.py if you get the following message: 
+
+```bash
+Welcome to ACL20 Challenge - HML CMU-MOSEI Subchallenge. SDK Works! 
+```
 
 Now, off to getting the data. We have provided a sample code that will do the job for you, simply run SDK\_start/dl\_cmumosei.py
 
