@@ -1,4 +1,13 @@
-# ACL 2020 Grand-Challenge and Workshop on Multimodal Language: CMU-MOSEI Start Page
+# Welcome to ACL 2020 Grand-Challenge and Workshop on Multimodal Language Github page
+This github will guide you through the process of participating in the grand-challenge for both CMU-MOSEI and MELD datasets. First, a quick recap of the datasets:
+
+CMU-MOSEI: CMU Multimodal Opinion Sentiment and Emotion Intensity (CMU-MOSEI) dataset is the largest dataset of multimodal sentiment analysis and emotion recognition to date. The dataset contains nearly 23,500 sentence utterance videos from more than 1000 online YouTube speakers across 250 topics. The dataset is gender balanced. All the sentences utterance are randomly chosen from various topics and monologue videos. The videos are transcribed and properly punctuated. We strongly suggest participants use CMU Multimodal SDK for working with CMU-MOSEI. The winning team of CMU-MOSEI track will receive a certificate of achievement and a gift of  at least $1,000 USD in value.
+
+MELD: Multimodal Emotion Lines Dataset (MELD) has been created by enhancing and extending EmotionLines dataset. MELD contains the same dialogue instances available in EmotionLines, but it also encompasses audio and visual modality along with text. MELD has more than 1400 dialogues and 13000 utterances from Friends TV series. Multiple speakers participated in the dialogues. Each utterance in a dialogue has been labeled by any of these seven emotions -- Anger, Disgust, Sadness, Joy, Neutral, Surprise and Fear. MELD also has sentiment (positive, negative and neutral) annotation for each utterance. The winning team of MELD will recieve a certificate of achievement. No private test-set will be released for MELD dataset.
+
+This starting page is split into two parts: 1) CMU-MOSEI, 2) MELD. To particicpate in the grand-challenge, you can participate in either or both of the datasets. 
+
+# Begin with CMU-MOSEI 
 
 To start with the challenge on CMU-MOSEI dataset, you have two options:
 
@@ -32,8 +41,13 @@ This option is not recommended since multimodal data processing can be cumbersom
 
 Private test data will be release on Feb 15th.  
 
-## Contacting the organizers
 
-You can reach us at challengehml20@gmail.com
+# MELD
+
+MELD is not yet a part of CMU Multimodal SDK. Therefore, it is up to the participants to process the dataset (e.g. word alignment). You can find the starting page of MELD here: https://github.com/SenticNet/MELD
+
+# Contacting the organizers
+
+Have questions? You can reach us at challengehml20@gmail.com
 
 
