@@ -49,7 +49,7 @@ After download is finished, simply run the process_cmumosei to start the word al
 CHALHML_PATH/start_here/process_cmumosei.py
 ```
 
-The above will first do word alignment. Once the word alignment is done, it will create "word_aligned_highlevel" folder with word aligned csd files. Subsequently, the code aligns everything to labels and creates "final_aligned" folder. We also provide these folders for download here, identical to what you would get if you ran locally: http://immortal.multicomp.cs.cmu.edu/ACL20Challenge/
+The above will first do word alignment. Once the word alignment is done, it will create "word_aligned_highlevel" folder with word aligned csd files. Subsequently, the code aligns everything to labels and creates "final_aligned" folder. since processing CMU-MOSEI is computationally heavy, we also provide these folders for download here, identical to what you would get if you ran the above command locally: http://immortal.multicomp.cs.cmu.edu/ACL20Challenge/
 
 
 ## Option B: Download Raw Data
