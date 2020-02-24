@@ -15,6 +15,7 @@ def process_data(folders=["cmumosei_highlevel","cmumosei_labels"]):
 	log.status("You only need to run this script once. CMU-MOSEI processing requires a combination of 300GB in RAM and swap combined. As optimized as the process is, it may take up to a day to finish.")
 	log.status("Alternatively, you can send us your computational sequences to align for you if you don't have enough computational power for alignment.")
 	log.status("The standard aligned features are availabel on the challenge github.")
+	log.status("You can also download the data from here: http://immortal.multicomp.cs.cmu.edu/ACL20Challenge/.")
 	
 	cmumosei_challenge_acl20={}
 	for folder in folders:
