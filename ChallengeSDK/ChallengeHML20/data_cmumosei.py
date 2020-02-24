@@ -15,8 +15,7 @@ challenge20_data["highlevel"]["FACET 4.2"]='http://immortal.multicomp.cs.cmu.edu
 
 #the labels for the challenge
 challenge20_data["labels"]={}
-challenge20_data["labels"]["Sentiment Labels"]="http://immortal.multicomp.cs.cmu.edu/CMU-MOSEI/labels/CMU_MOSEI_LabelsSentiment.csd"
-challenge20_data["labels"]["Emotion Labels"]="http://immortal.multicomp.cs.cmu.edu/CMU-MOSEI/labels/CMU_MOSEI_LabelsEmotions.csd"
+challenge20_data["labels"]["All Labels"]="http://immortal.multicomp.cs.cmu.edu/CMU-MOSEI/labels/CMU_MOSEI_All_Labels.csd"
 
 #extra data provided to users 
 challenge20_data["extra"]={}
