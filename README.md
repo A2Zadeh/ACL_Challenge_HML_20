@@ -15,6 +15,8 @@ A. Use CMU Multimodal SDK (recommended)
 
 B. Download the raw data and process it
 
+NOTE: When you are ready for the challenge test set, you have to contact the challenge organizers to get the intervals of sentences in the test set.
+
 ## Option A: Using the CMU Multimodal SDK
 
 First clone the CMU Multimodal SDK from https://github.com/A2Zadeh/CMU-MultimodalSDK. Install it using the short and easy installation steps in the MMSDK. We refer to the path to MMSDK as MMSDK\_PATH. Subsequently, clone this github repository. We will refer to the path to this repository as CHALHML\_PATH. Add both paths to your PYTHONPATH environment variable using:
