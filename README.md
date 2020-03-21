@@ -15,7 +15,7 @@ A. Use CMU Multimodal SDK (recommended)
 
 B. Download the raw data and process it
 
-NOTE: When you are ready for the challenge test set, you have to contact the challenge organizers to get the intervals of sentences in the test set.
+NOTE: When you are ready for the challenge test set, you have to contact the challenge organizers to get the intervals of sentences in the test set. You also have to fill the file Challenge_HML_PA.pdf and send it to orgainzers. 
 
 ## Option A: Using the CMU Multimodal SDK
 
