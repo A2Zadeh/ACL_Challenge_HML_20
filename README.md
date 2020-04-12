@@ -1,3 +1,11 @@
+#COVID-19 UPDATE:
+
+We hope everyone and their loved ones are staying safe during the COVID-19 pandemic.
+
+<<Extension>>  We understand that quarantine is now in effect in many countries around the world, and that has taken a heavy toll on the speed of scientific research. Most of these days have been overlapping with the preparation days for this workshop. Due to this, and to allow fairness in submissions, we are extending all the deadlines by at least 3 weeks (deadlines hour still end of the day everywhere on earth). We hope this extension makes up for the lost time during the pandemic. The new deadlines are shown below.
+
+<<online>> As for the workshop day (July 10th 2020), we follow the same policy as the ACL 2020. We will hold the workshop online, and a zoom link will be announced here. The workshop is open to everyone without the need for conference registration.  The workshop will start at 9:00 a.m PDT (Seattle time).
+
 # Welcome to ACL 2020 Grand-Challenge and Workshop on Multimodal Language Github page
 This github will guide you through the process of participating in the grand-challenge for both CMU-MOSEI and MELD datasets. First, a quick recap of the datasets:
 
