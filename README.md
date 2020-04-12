@@ -1,4 +1,4 @@
-#COVID-19 UPDATE:
+# COVID-19 UPDATE:
 
 We hope everyone and their loved ones are staying safe during the COVID-19 pandemic.
 
